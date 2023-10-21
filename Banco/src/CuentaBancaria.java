@@ -12,7 +12,7 @@ public class CuentaBancaria {
     private String descripcionCuenta;
     private String cuentaCCI;
     private Double saldoDisponible;
-    private MovimientoCuenta movimientos[];
+    private MovimientoCuenta movimientos;
     private String estado;
     
     //constructor
@@ -62,14 +62,13 @@ public class CuentaBancaria {
         this.saldoDisponible = saldoDisponible;
     }
 
-    public MovimientoCuenta[] getMovimientos() {
+    public MovimientoCuenta getMovimientos() {
         return movimientos;
     }
 
-    public void setMovimientos(MovimientoCuenta[] movimientos) {
+    public void setMovimientos(MovimientoCuenta movimientos) {
         this.movimientos = movimientos;
     }
-
 
     public String getEstado() {
         return estado;
@@ -83,5 +82,10 @@ public class CuentaBancaria {
     public String toString() {
         return "CuentaBancaria{" + "numeroCuenta=" + numeroCuenta + ", descripcionCuenta=" + descripcionCuenta + ", cuentaCCI=" + cuentaCCI + ", saldoDisponible=" + saldoDisponible + ", movimientos=" + movimientos + ", estado=" + estado + '}';
     }
+
+    
+    
+    
+    
     
 }
