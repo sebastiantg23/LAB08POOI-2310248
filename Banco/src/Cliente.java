@@ -7,6 +7,12 @@
  *
  * @author sebas
  */
-public class MovimientoCuenta {
+public class Cliente {
+    private String idCliente;
+    private String nombre;
+    private String apellido;
+    private String direccion;
+    private int dni;
+    private 
     
 }
