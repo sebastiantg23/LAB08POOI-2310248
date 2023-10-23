@@ -7,15 +7,18 @@
  *
  * @author Alumno
  */
-public class CuentaCTS {
+public class CuentaCTS extends CuentaBancaria{
     private double tasaInteresAnual=0.07;
     private double puntos;
     
     //Constructor
 
-    public CuentaCTS(double puntos) {
+    public CuentaCTS(double puntos, String numeroCuenta, String descripcionCuenta, String cuentaCCI) {
+        super(numeroCuenta, descripcionCuenta, cuentaCCI);
         this.puntos = puntos;
     }
+
+    
     
 
     public double getPuntos() {

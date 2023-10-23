@@ -7,7 +7,7 @@
  *
  * @author Alumno
  */
-public class CuentaAhorro extends CuentaBancaria{
+public abstract class CuentaAhorro extends CuentaBancaria{
     private double tasaInteresAnual=0.03;
     private String beneficios[];
     
@@ -19,7 +19,7 @@ public class CuentaAhorro extends CuentaBancaria{
     }
     
     public double getCuentaAhorro(){
-        return cuentaahorro;
+        return cuetaahorro;
     }
 
     public void setCuentaAhorro(double cuentaahorro){

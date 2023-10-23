@@ -7,16 +7,18 @@
  *
  * @author Alumno
  */
-public class CuentaCorriente {
+public class CuentaCorriente extends CuentaBancaria{
     private double tasaInteresAnual=0.02;
     private double COMISION_FIJA=2.0;
     private int maxRetiro;
     
     //Constructor
 
-    public CuentaCorriente(int maxRetiro) {
+    public CuentaCorriente(int maxRetiro, String numeroCuenta, String descripcionCuenta, String cuentaCCI) {
+        super(numeroCuenta, descripcionCuenta, cuentaCCI);
         this.maxRetiro = maxRetiro;
     }
+
     
 
 

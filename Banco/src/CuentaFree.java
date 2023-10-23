@@ -5,25 +5,25 @@
 
 /**
  *
- * @author Nayeli
+ * @author sebas
  */
-public class CuentaFree {
- 
-    private boolean numilimitadoRetiro;
+public class CuentaFree extends CuentaAhorro{
+    private boolean numIlimitadoRetiro;
 
     public boolean getNumilimitadoRetiro() {
-        return numilimitadoRetiro;
+        return numIlimitadoRetiro;
     }
 
     public void setNumilimitadoRetiro(boolean numilimitadoRetiro) {
-        this.numilimitadoRetiro = numilimitadoRetiro;
+        this.numIlimitadoRetiro = numIlimitadoRetiro;
     }
 
     @Override
     public String toString() {
-        return "CuentaFree{" + "numilimitadoRetiro=" + numilimitadoRetiro + '}';
+        return "CuentaFree{" + "numilimitadoRetiro=" + numIlimitadoRetiro + '}';
     }
     
     
     
 }
+    

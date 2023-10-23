@@ -7,7 +7,7 @@
  *
  * @author JESSICA
  */
-public class CuentaSueldo {
+public class CuentaSueldo extends CuentaAhorro{
     
     private String nombreEmpresa;
     
